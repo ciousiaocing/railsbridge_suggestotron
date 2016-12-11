@@ -6,6 +6,8 @@ Rails.application.routes.draw do
       post 'downvote'
     end
   end
+  get 'about', to: 'topics#about'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
